@@ -1,38 +1,12 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* @media only screen and (min-width: 376px) {
+  div#root {
+    display: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  body:after {
+    display: inline-block;
+    font-size: 72px;
+    text-align: center;
+    white-space: pre-wrap;
+    content: '\00000a Thanks for stopping by.\00000a Head on over to iPhone 6 resolution (375px width) for the real-deal.';
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
