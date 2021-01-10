@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from '@rmwc/button';
-import '@rmwc/button/dist/styles';
-import '@rmwc/icon/dist/styles';
+import '@rmwc/button/styles';
+import '@rmwc/icon/styles';
 
 const NavButton = ({ onClick, isOpen }) => (
   <Button

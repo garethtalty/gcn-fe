@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { Drawer, DrawerContent, DrawerAppContent } from '@rmwc/drawer';
-import '@rmwc/drawer/dist/styles';
+import '@rmwc/drawer/styles';
 import './nav.module.scss';
 
 import NavItem from './nav-item';
