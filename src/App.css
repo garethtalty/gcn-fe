@@ -1,4 +1,15 @@
-/* @media only screen and (min-width: 376px) {
+@import-normalize;
+
+:root {
+  --mdc-theme-primary: #fff;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 376px) {
   div#root {
     display: none;
   }
@@ -9,4 +20,4 @@
     white-space: pre-wrap;
     content: '\00000a Thanks for stopping by.\00000a Head on over to iPhone 6 resolution (375px width) for the real-deal.';
   }
-} */
+}

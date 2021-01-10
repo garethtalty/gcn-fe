@@ -1,0 +1,15 @@
+.subheader {
+  background: #000;
+  line-height: 35px;
+  width: 100%;
+  position: sticky;
+  height: 40px;
+  top: -40px;
+  transition: top 0.3s ease-in-out;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.sticky {
+  top: 0px;
+}

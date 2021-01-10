@@ -13,7 +13,7 @@ const routes = [
   { path: '/category/top-10s', name: 'Top 10s', Component: Category },
   { path: '/category/gcn-racing', name: 'GCN Racing', Component: Category },
   { path: '/category/gcn-tech', name: 'GCN Tech', Component: Category },
-  { path: '/presenters', name: 'Presenter', Component: Presenters },
+  { path: '/presenters', name: 'Presenters', Component: Presenters },
   { path: '/presenters/conor-dunne', name: 'Conor Dunne', Component: Presenters },
   { path: '/presenters/daniel-lloyd', name: 'Daniel Lloyd', Component: Presenters },
   { path: '/presenters/james-lw', name: 'James Lowsley-Williams', Component: Presenters },

@@ -1,0 +1,20 @@
+:global .mdc-drawer .mdc-list-item {
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+.nav-item {
+  border-bottom: 1px solid #333;
+}
+.nav-item:hover,
+.nav-item:active {
+  background-color: #c30006;
+}
+
+.nav-item > a {
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 16px;
+  display: block;
+}
