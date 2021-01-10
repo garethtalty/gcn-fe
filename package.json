@@ -2,6 +2,7 @@
   "name": "gcn-fe",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://garethtalty.github.io/gcn-fe",
   "dependencies": {
     "@rmwc/button": "^6.1.4",
     "@rmwc/drawer": "^6.1.4",
@@ -29,7 +30,7 @@
     "test:integration": "npm run-script cypress",
     "eject": "react-scripts eject",
     "cypress": "cypress open",
-    "deploy": "git subtree push --prefix build origin gh-pages"
+    "deploy": "git subtree split --prefix build -b gh-pages && git push -f origin gh-pages:gh-pages && git branch -D gh-pages"
   },
   "eslintConfig": {
     "extends": [
