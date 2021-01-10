@@ -28,7 +28,8 @@
     "test:unit": "npm run-script test",
     "test:integration": "npm run-script cypress",
     "eject": "react-scripts eject",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "deploy": "git subtree push --prefix build origin gh-pages"
   },
   "eslintConfig": {
     "extends": [
