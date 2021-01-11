@@ -1,22 +1,24 @@
-# task
+# GCN FE Task
+
+## the task
 [./docs/task.pdf](./docs/task.pdf)
 
 <img src="./docs/gcn-fe.gif" width="100%">
 
-# running
+## running
 
 1. visit: https://garethtalty.github.io/gcn-fe or;
 2. clone https://github.com/garethtalty/gcn-fe.git, `$ npm install && npm run start`. visit `http://localhost:3000`,
   - note, this app has been built using the current LTS version of Node (node 14 & npm 6). While this app may build on lower versions, this has not been tested for the purposes of this task.
   - The app must be viewed in Chrome at iPhone 6 resolution (375x667).
 
-# existing navigation critique
+## existing navigation critique
 A full critique of the existing navigation is provided [here](./docs/CURRENT_NAV_CRITIQUE.md) and this solution aims to implement the suggestions outlined in the Recommendations section.
 
-# testing
+## testing
 Unit tests can be run with `npm run test` or `npm run test:unit`. Integration tests are written with [Cypress](https://www.cypress.io/) and require the app to be started on `http://localhost:3000` to run successfully.
 
-# Prepare app for Production
+## prepare app for production
 This section outlines the steps that are required to prepare this solution for production (in no real order, and probably not exhaustive).
 1. Configure production build accordingly. Under the hood, create-react-app uses webpack to produce the build. There are some sensible defaults provided when doing a production build through CRA, however they should be optimized as appropriate, paying attention to code-splitting and asset caching.
 2. Measure application performance and implement any enhancements.
@@ -30,7 +32,7 @@ This section outlines the steps that are required to prepare this solution for p
    - test runners
    - code quality gates (tooling like sonarqube, lighthouse)
 
-# future ideas for discussion
+## future ideas for discussion
 - Fetch video data through proxy
 
 - Throttle vs intersection observer
