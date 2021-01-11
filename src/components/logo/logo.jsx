@@ -4,7 +4,7 @@ import styles from './logo.module.css';
 
 const Logo = () => (
   <>
-    <GCNLogo className={styles.logo} />
+    <GCNLogo className={styles.logo} data-test-id="logo" />
   </>
 );
 

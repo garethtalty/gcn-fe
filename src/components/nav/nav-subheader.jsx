@@ -45,6 +45,7 @@ const NavSubheader = ({ children, setSticky, isSticky }) => {
         ${styles.subheader}
         ${isSticky ? styles.sticky : ''}
       `}
+      data-test-id="nav-subheader"
     >
       {children}
     </div>
