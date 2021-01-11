@@ -1,5 +1,8 @@
 # task
 [./docs/task.pdf](./docs/task.pdf)
+
+<img src="./docs/gcn-fe.gif" width="100%">
+
 # running
 
 1. visit: https://garethtalty.github.io/gcn-fe or;
