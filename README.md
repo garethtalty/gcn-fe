@@ -1,5 +1,5 @@
 # task
-[./docs/task.pdf](task.pdf)
+[./docs/task.pdf](./docs/task.pdf)
 # running
 
 1. visit: https://garethtalty.github.io/gcn-fe or;
@@ -31,7 +31,7 @@ This section outlines the steps that are required to prepare this solution for p
 - Fetch video data through proxy
 
 - Throttle vs intersection observer
-- 
+
 - Eject from CRA (or not)
 
 - Todo's
