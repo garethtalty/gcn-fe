@@ -3,7 +3,7 @@
 # running
 
 1. visit: https://garethtalty.github.io/gcn-fe or;
-2. clone https://garethtalty.github.io/gcn-fe, `$ npm install && npm run start`. visit `http://localhost:3000`,
+2. clone https://github.com/garethtalty/gcn-fe.git, `$ npm install && npm run start`. visit `http://localhost:3000`,
   - note, this app has been built using the current LTS version of Node (node 14 & npm 6). While this app may build on lower versions, this has not been tested for the purposes of this task.
   - The app must be viewed in Chrome at iPhone 6 resolution (375x667).
 
